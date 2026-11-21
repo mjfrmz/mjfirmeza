@@ -35,3 +35,30 @@ The capture workflow only records publicly viewable homepages; some sites may bl
 - Contact uses `mailto:`; no backend is needed.
 - Project navigation, filters, and mobile menu use `script.js`.
 - Heavenly Homes is described as a completed REI BlackBook template customization, not an uncompleted Carrot rebuild.
+
+
+## Real Estate Virtual Assistant scope
+The site now includes a Real Estate VA section listing experience with seller financing, subject-to deals, lease purchase, property research, lead prospecting, lead follow-ups, CRM management, seller and buyer management, and administrative support. Claims intentionally describe support rather than legal, licensed, or negotiation services.
+
+
+## Confirmed tools (November 2026)
+Real estate and sales CRM: REI BlackBook, GoHighLevel, Podio, Follow Up Boss, RESimpli, FreedomSoft, HubSpot CRM.
+Automation and integrations: Zapier, Webhooks / API Integrations, Google Apps Script, Google Sheets Automation.
+Operations and admin: ClickUp, Asana, Slack, Trello, Google Workspace, Google Sheets, Calendly, DocuSign, Microsoft 365.
+
+## Dialers and communication tools
+Confirmed hands-on platforms: Mojo Dialer, Quo (formerly OpenPhone), CallTools, Dialpad, RingCentral, and Google Voice. These appear in their own card under Platforms & Systems.
+
+
+## Accomplishments section
+Includes verified self-reported website builds (three full builds and one REI BlackBook customization), two years SEO experience, and qualitative CRM / integration / Google Sheets examples. Illustrative flows are labeled and no performance outcomes are invented.
+
+## Interactive workflow showcase
+The Accomplishments section includes three responsive, tabbed diagrams: seller lead follow-up, CRM/webhook integration, and Google Sheets + Apps Script. These are recreated representative examples with fictional steps and no client data or specific performance claims. The examples do not connect to live CRMs and are for portfolio illustration only.
+
+
+## Anonymized workflow case studies
+The interactive workflow gallery includes five reconstructed examples from supplied project screenshots: RESimpli seller nurture, REI BlackBook email/task follow-up, REI BlackBook inbound call handling, a Google Sheets/Apps Script lead tracker, and REI BlackBook custom CRM fields/pipeline management. Screenshots and client configuration details are not published. The diagrams summarize visible steps only and do not assert unverified performance results.
+
+## Webhook integration demonstration
+The sixth tab is an explicitly fictional webhook-to-CRM workflow with illustrative JSON. It has no live endpoint, no client data, and no fabricated performance metrics.

@@ -38,3 +38,27 @@ document.querySelectorAll('.site-screenshot[data-fallback]').forEach(img => {
     }
   });
 });
+
+
+// Showcase only: switch between safe, recreated workflow diagrams.
+const workflowTabs = Array.from(document.querySelectorAll('.workflow-tab'));
+const workflowPanels = Array.from(document.querySelectorAll('.workflow-panel'));
+function activateWorkflow(tab, focus = false) {
+  workflowTabs.forEach(t => {
+    const active = t === tab;
+    t.classList.toggle('is-active', active);
+    t.setAttribute('aria-selected', String(active));
+    t.tabIndex = active ? 0 : -1;
+  });
+  workflowPanels.forEach(p => { p.hidden = p.id !== tab.getAttribute('aria-controls'); });
+  if (focus) tab.focus();
+}
+workflowTabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => activateWorkflow(tab));
+  tab.addEventListener('keydown', event => {
+    const delta = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0;
+    if (!delta) return;
+    event.preventDefault();
+    activateWorkflow(workflowTabs[(index + delta + workflowTabs.length) % workflowTabs.length], true);
+  });
+});
